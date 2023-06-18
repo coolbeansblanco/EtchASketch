@@ -2,13 +2,25 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+button {
+    background-color: deepskyblue;
+    flex: 0 0 auto;
 }
 
 .container{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
     background-color: coral;
     display: flex;
     flex-direction: column;
@@ -21,8 +33,8 @@ body {
 
 div > div {
     border: 1px solid black;
-    background-color: bisque;
-    flex: 1 0 10px;
+    background-color: lightsalmon;
+    flex: 1 0 2px;
 }
 
 .hover{
