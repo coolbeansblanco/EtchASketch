@@ -24,3 +24,7 @@ div > div {
     background-color: bisque;
     flex: 1 0 10px;
 }
+
+.hover{
+    background-color: black;
+}
